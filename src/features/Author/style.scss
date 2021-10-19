@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.quote-control {
+	margin: 101px 410px 330px 309px;
+	font-size: 36px;
+	font-family: 'Raleway';
+	h2 {
+		font-weight: 700;
+		line-height: 42.26px;
+		color: #333333;
+		padding-bottom: 140px;
+	}
+	p {
+		font-weight: 500;
+		line-height: 43.2px;
+		margin-bottom: 140px;
+		padding-left: 99px;
+	}
+	.boder-left {
+		border-left: 8px solid #f7df94;
+	}
+}

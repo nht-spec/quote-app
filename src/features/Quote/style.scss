@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.random-quote-control {
+	display: flex;
+
+	height: 22px;
+	align-items: center;
+	margin-top: 31px;
+	margin-left: 1247px;
+	margin-right: 127px;
+	.btn-random {
+		border: none;
+		background-color: white;
+		font-family: 'Raleway';
+		font-size: 18px;
+		line-height: 21.6px;
+		color: #4f4f4f;
+		font-weight: 500;
+		cursor: pointer;
+		padding-right: 11px;
+	}
+	.material-icons {
+		font-size: 16px;
+	}
+}
+
+.quoteRandom-control {
+	padding: 120px 309px 298px 309px;
+	font-family: 'Raleway';
+
+	.boder-left {
+		border-left: 8px solid #f7df94;
+	}
+	.quote-text {
+		width: 672px;
+		padding-left: 90px;
+		font-size: 36px;
+		line-height: 43.2px;
+		font-weight: 500;
+	}
+	.quote-author-genre {
+		display: flex;
+		margin-top: 70px;
+		margin-left: 70px;
+		height: 151px;
+		width: 672px;
+		cursor: pointer;
+		justify-content: space-between;
+		align-items: center;
+		padding: 50px 39.33px 73px 29px;
+		h2 {
+			font-size: 24px;
+			line-height: 28.18px;
+			font-weight: 700;
+			color: #4f4f4f;
+		}
+		span {
+			margin-top: 16px;
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 16.44px;
+			color: #828282;
+		}
+		.material-icons {
+			font-size: 35px;
+			color: white;
+		}
+	}
+}
+
+.quote-author-genre:hover {
+	background-color: #333333;
+	transition: background-color 3s;
+
+	h2 {
+		color: #f2f2f2;
+	}
+	span {
+		color: #828282;
+	}
+	.material-icons {
+		color: #f2f2f2;
+	}
+}
